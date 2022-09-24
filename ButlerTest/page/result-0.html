@@ -40,7 +40,12 @@
     <div class="resultDesc">
       <p>고양이에 관해 아는 것이 없는 당신! 지금 상태론 준비가 하나도 되어 있지 않네요. 진심으로 고양이를 사랑한다면 공부를 하셔야 합니다!</p>
     </div>
-    <button type="button" class="gohome py-2 px-3 mt-3 btn-lg" onclick="js:kakaoShare()">테스트해보기</button>
+    <script type="text/javascript">
+      function moveHome(){
+        location.href = "/index.html";
+      }
+    </script>
+    <button type="button" class="gohome py-2 px-3 mt-3 btn-lg" onclick="js:moveHome()">테스트해보기</button>
   </section>
 </body>
 
